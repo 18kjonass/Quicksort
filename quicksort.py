@@ -19,6 +19,7 @@ def Quicksort(nums):
             else:
                 middle_list.append(x)
         return Quicksort(left_list)+middle_list+Quicksort(right_list)
+print(Quicksort(nums))
         
         
     
